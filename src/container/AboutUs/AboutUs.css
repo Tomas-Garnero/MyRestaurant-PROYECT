@@ -55,7 +55,6 @@
 .aboutus-spoon__img-rigth {
     transform: rotate(-180deg);
     width: 45px;
-    height: 11.25px;
 }
 
 @media screen and (min-width: 2000px) {

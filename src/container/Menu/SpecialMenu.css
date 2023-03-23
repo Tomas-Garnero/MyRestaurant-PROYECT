@@ -56,7 +56,6 @@
 .specialmenu-spoon__img-rigth {
     transform: rotate(-180deg);
     width: 45px;
-    height: 11.25px;
 }
 
 @media screen and (max-width: 2000px) {
