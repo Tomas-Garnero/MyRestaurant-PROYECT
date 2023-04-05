@@ -1,12 +1,13 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
-import G from '../assets/G.png';
+import M from '../assets/M.png';
 import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
 import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
+import mylogo from '../assets/mylogo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
@@ -19,18 +20,18 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
-import garnero from '../assets/garnero.png';
 
 export default {
   bg,
   chef,
-  G,
+  M,
   gallery01,
   gallery02,
   gallery03,
   gallery04,
   knife,
   logo,
+  mylogo,
   menu,
   overlaybg,
   spoon,
@@ -43,5 +44,4 @@ export default {
   award05,
   sign,
   quote,
-  garnero,
 };

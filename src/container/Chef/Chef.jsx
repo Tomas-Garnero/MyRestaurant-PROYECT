@@ -1,5 +1,6 @@
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
+import "animate.css";
 import './Chef.css';
 
 const Chef = () => (
@@ -13,8 +14,8 @@ const Chef = () => (
                 What we believe in
             </h1>
             <div className='app__chef-content'>
-                <div className='app__chef-content-quote'>
-                    <img src={images.quote} alt="quote" />
+                <img src={images.quote} alt="quote" className='animate__animated animate__shakeX animate__infinite animate__slower' />
+                <div className='app__chef-content_quote'>
                     <p className='p__opensans'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit. 
                     </p>

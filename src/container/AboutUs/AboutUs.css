@@ -8,8 +8,8 @@
 }
 
 .app__aboutus-overlay img {
-    width: 391px;
-    height: 415px;
+    width: 425px;
+    height: 449px;
     z-index: 0;
 }
 
@@ -50,11 +50,6 @@
 .app__aboutus-content_history p {
     margin: 2rem 0;
     color: var(--color-grey);
-}
-
-.aboutus-spoon__img-rigth {
-    transform: rotate(-180deg);
-    width: 45px;
 }
 
 @media screen and (min-width: 2000px) {

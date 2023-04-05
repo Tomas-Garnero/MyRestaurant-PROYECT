@@ -53,11 +53,6 @@
     width: 100%;
 }
 
-.specialmenu-spoon__img-rigth {
-    transform: rotate(-180deg);
-    width: 45px;
-}
-
 @media screen and (max-width: 2000px) {
     .app__specialMenu-menu_img {
         width: 600px;

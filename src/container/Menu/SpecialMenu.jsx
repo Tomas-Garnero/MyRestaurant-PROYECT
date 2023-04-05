@@ -3,14 +3,12 @@ import { SubHeading, MenuItem } from '../../components';
 import { images, data } from '../../constants';
 
 const SpecialMenu = () => (
-    <div className='app__specialMenu flex__center section__padding' id="menu">
+    <div className='app__specialMenu app__bg-gradient flex__center section__padding' id="menu">
         <div className='app__specialMenu-title'>
             <SubHeading title="Menu that fits you palatte"/>
             <h1 className='headtext__cormorant'>
                 Today's Special
             </h1>
-            <img src={images.spoon} alt="about_spoon" className="specialmenu-spoon__img-rigth" style={{ margin: "0.5rem 1rem" }} />
-            <img src={images.spoon} alt="about_spoon" className="spoon__img" style={{ margin: "0.5rem 1rem" }} />
         </div>
         <div className='app__specialMenu-menu'>
             <div className='app__specialMenu-menu_wine flex__center'>

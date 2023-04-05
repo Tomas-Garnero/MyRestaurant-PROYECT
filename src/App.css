@@ -16,6 +16,14 @@
   background-attachment: fixed;
 }
 
+.app__bg-gradient {
+  background:-moz-radial-gradient(ellipse at 50% 50%, rgba(29, 23, 22, 1) 16%, rgba(0, 0, 0, 1) 100%);
+  background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(29, 23, 22, 1) 16%, rgba(0, 0, 0, 1) 100%);
+  background:-o-radial-gradient(ellipse at 50% 50%, rgba(29, 23, 22, 1) 16%, rgba(0, 0, 0, 1) 100%);
+  background:-ms-radial-gradient(ellipse at 50% 50%, rgba(29, 23, 22, 1) 16%, rgba(0, 0, 0, 1) 100%);
+  background:radial-gradient(ellipse at 50% 50%, rgba(29, 23, 22, 1) 16%, rgba(0, 0, 0, 1) 100%);
+}
+
 .app__wrapper {
   display: flex;
   justify-content: space-between;
@@ -53,18 +61,18 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
-    color: var(--color-black);
-    font-family: var(--font-base);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  background-color: black;
+  color: white;
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid var(--color-golden);
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
 }
 
 .p__cormorant {
